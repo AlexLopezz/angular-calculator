@@ -1,0 +1,64 @@
+
+.login{
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: outline-width 0.1s;
+    font-weight: 400;
+  }
+  
+  .login:hover{
+    outline: 3px solid white;
+  }
+  
+  .form-group{
+    outline: 1px solid rgb(177, 177, 177);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0.3rem 0.75rem;
+  }
+  
+  .form-control{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    color: rgb(184, 184, 184);
+    height: 35px;
+  }
+  
+  .labels{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(145, 145, 145);
+  }
+  
+  .buttons{
+    margin-top: 25px;
+    text-align: right;
+  }
+  
+  .signup{
+    outline: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    transition: outline-width 0.1s ;
+    border: 1px solid white;
+    font-weight: 500;
+  }
+  
+  .signup:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    outline: 3px solid white;
+  }

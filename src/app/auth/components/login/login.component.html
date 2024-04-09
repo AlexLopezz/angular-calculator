@@ -1,0 +1,29 @@
+<div class="card-header">
+  <h2 class="text-center">Login</h2>
+</div>
+<form [formGroup]="loginForm" (ngSubmit)="doLogin()" autocomplete="off">
+  <div class="form-group">
+    <label class="labels" for="username">Username</label>
+    <input
+      type="text"
+      class="form-control"
+      id="username"
+      formControlName="username"
+      placeholder="Username"
+    />
+  </div>
+  <div class="form-group">
+    <label class="labels" for="password">Password</label>
+    <input
+      type="password"
+      class="form-control"
+      id="password"
+      formControlName="password"
+      placeholder="Password"
+    />
+  </div>
+  <div class="buttons">
+    <a class="login" (click)="toggleSignupForm()"> Signup </a>
+    <button class="signup">Login</button>
+  </div>
+</form>

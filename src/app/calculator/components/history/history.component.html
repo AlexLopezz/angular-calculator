@@ -1,0 +1,8 @@
+<div class="operations-body">
+  <h5 class="operations-title">Operations</h5>
+    <div class="text-center text-light">
+      <p *ngFor="let op of historial" > {{ op.operations }} = {{ op.result }}
+        <button (click)="deleteOneHistory(op.id)" class="delete">x</button>
+      </p>
+    </div>
+</div>

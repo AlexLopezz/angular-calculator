@@ -1,0 +1,33 @@
+.test2 {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.test {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.btn {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin: 1.5px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 1px solid rgb(0, 0, 0);
+}
+.btn:hover {
+    background-color: #090c31;
+}
+
+#deleteAll{
+    color: black;
+    background-color: aqua;
+}
+#delete {
+    color: red;
+    background-color: white;
+}
+#equals {
+    background-color: red;
+}

@@ -1,0 +1,13 @@
+<div class="container">
+
+
+  <div class="calculator">
+    <calculator-display [value]="displayValue"></calculator-display>
+    <calculator-buttons (value)="onEmitValue($event)"></calculator-buttons>
+    <calculator-logout class="logout"></calculator-logout>
+  </div>
+  <calculator-history
+    [historial]="historial"
+    class="history"
+  ></calculator-history>
+</div>

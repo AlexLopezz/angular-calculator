@@ -1,0 +1,23 @@
+.operations-body{
+    max-height: 400px;
+    padding: 0rem 2rem 0rem 2rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    overflow-y: auto;
+    text-align: right;
+}
+.operations-title{
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.delete{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}

@@ -1,0 +1,22 @@
+.calculator {
+    max-width: 250px;
+    max-height: 450px;
+    background-color: rgb(32, 32, 32);
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 5px;
+    text-align: center;
+    outline: 1px solid rgb(85, 85, 85);
+    margin-right: 2px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history {
+    /* Ajustar márgenes si es necesario */
+    margin-right: 20px;
+    align-self: flex-start;
+}

@@ -1,0 +1,8 @@
+<div class="container">
+  <div *ngIf="showSignupForm; else showLogin" class="card-body">
+    <auth-register (onRegisterSuccess)="onRegisterSuccess($event)" (showSignupFormChange)="onToggleSignupForm($event)"></auth-register>
+  </div>
+  <ng-template #showLogin>
+    <auth-login class="card-body" (showSignupFormChange)="onToggleSignupForm($event)"></auth-login>
+  </ng-template>
+</div>

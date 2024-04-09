@@ -1,0 +1,33 @@
+<div class="card-header">
+  <h2 class="text-center">Register</h2>
+</div>
+<form [formGroup]="signUpForm" (ngSubmit)="onSignUp()" autocomplete="off">
+  <div class="form-group">
+    <div>
+      <label class="labels" for="signup-username">Username</label>
+    </div>
+    <input
+      type="text"
+      class="form-control"
+      id="signup-username"
+      formControlName="username"
+      placeholder="Username"
+    />
+  </div>
+  <div class="form-group">
+    <div>
+      <label class="labels" for="signup-password">Password</label>
+    </div>
+    <input
+      type="password"
+      class="form-control"
+      id="signup-password"
+      formControlName="password"
+      placeholder="Password"
+    />
+  </div>
+  <div class="buttons">
+    <a class="login" (click)="toggleSignupForm()">Login</a>
+    <button class="signup">Register</button>
+  </div>
+</form>
